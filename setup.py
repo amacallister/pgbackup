@@ -6,7 +6,7 @@ with open('README.md', 'r') as f:
 setup(
     name='pgbackup',
     version='0.1.0',
-    author='Amanda MacAllister',
+    author='A MacAllister',
     description="A tutorial project from A Cloud Guru's Introduction to Python Development course",
     long_description=long_description,
     long_description_content_type='text/markdown',
