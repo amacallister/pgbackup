@@ -8,9 +8,17 @@ setup(
     version='0.1.0',
     author='Amanda MacAllister',
     author_email='amacall22@gmail.com',
-    description='A utility for backing up PostgreSQL databases.',
+    description="A tutorial project from A Cloud Guru's Introduction to Python Development course",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/linuxacademy/pgbackup',
+    url='https://github.com/amacallister/pgbackup',
     packages=find_packages('src')
+    package_dir={'': 'src'},
+    python_requires='>=3.6',
+    install_requires=['boto3'],
+    entry_points={
+        'console_scripts': [
+            'pgbackup=pgbackup.cli:main'
+        ]
+    }
 )
