@@ -7,7 +7,6 @@ setup(
     name='pgbackup',
     version='0.1.0',
     author='Amanda MacAllister',
-    author_email='amacall22@gmail.com',
     description="A tutorial project from A Cloud Guru's Introduction to Python Development course",
     long_description=long_description,
     long_description_content_type='text/markdown',
