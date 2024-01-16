@@ -1,6 +1,10 @@
 pgbackup
 ========
 
+_This is a tutorial project from A Cloud Guru's [Introduction to Python Development][link-1] course._
+
+[link-1]: https://acloud.guru/course/introduction-to-python-development
+
 CLI for backing up remote PostgreSQL databases locally or to AWS S3.
 
 ## Usage
